@@ -83,6 +83,7 @@ hr {
 
 #btnRecoger:hover {
     border: 5px solid #000000;
+    color: black;
 }
 
 #btnEnviar {
@@ -93,6 +94,7 @@ hr {
 }
 
 #btnEnviar:hover {
+    color: black;
     border: 5px solid #000000;
 }
 
@@ -118,7 +120,6 @@ h4 {
 
 #textReseña {
     text-align: center;
-    font-weight: bold;
     font-style: italic;
 }
 
