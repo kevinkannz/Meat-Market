@@ -85,7 +85,8 @@ hr {
 
 #btnRecoger {
     margin-left: 15px;
-    border: 5px solid #ffffff;
+    border: 5px solid rgb(236, 236, 236);
+    ;
     font-weight: bold;
     font-family: 'Acme', sans-serif;
     background-color: red;
@@ -102,7 +103,8 @@ hr {
     margin-right: 15px;
     font-weight: bold;
     font-family: 'Acme', sans-serif;
-    border: 5px solid #ffffff;
+    border: 5px solid rgb(236, 236, 236);
+    ;
     font-size: 24px;
 }
 
@@ -166,7 +168,7 @@ h4 {
 .fas {
     color: yellow;
     margin-left: 10px;
-    font-size: x-large;
+    font-size: xx-large;
     -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
