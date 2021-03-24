@@ -34,6 +34,48 @@
     margin-bottom: 0px;
 }
 
+#banner2 {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(../img/carniceria.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 0px -120px;
+    color: white;
+    height: 345px;
+    box-shadow: 0px 15px 40px black;
+    margin-bottom: -50px;
+}
+
+#precio {
+    font-size: large;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#carne {
+    color: #000000;
+    font-family: 'Alfa Slab One', cursive;
+    -webkit-text-stroke: 5px rgb(255, 255, 255);
+}
+
+#botonCarrito {
+    margin-left: 110px;
+    font-size: small;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#cardsShop {
+    margin: 100px;
+}
+
+h5 {
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
 h1 {
     padding: 50px;
     text-align: center;
