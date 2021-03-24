@@ -62,8 +62,9 @@
 }
 
 #botonCarrito {
-    margin-left: 110px;
-    font-size: small;
+    margin-left: 90px;
+    font-size: medium;
+    padding: 10px;
     font-family: 'Alfa Slab One', cursive;
 }
 
@@ -79,8 +80,8 @@ h5 {
 h1 {
     padding: 50px;
     text-align: center;
-    font-family: 'Acme', sans-serif;
-    font-size: 160px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 125px;
     color: red;
     -webkit-text-stroke: 5px rgb(236, 236, 236);
 }
@@ -123,6 +124,7 @@ hr {
 #botonIndex {
     text-align: center;
     align-items: center;
+    margin-top: -40px;
 }
 
 #btnRecoger {
