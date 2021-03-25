@@ -121,6 +121,13 @@ hr {
     border: 2px solid red;
 }
 
+#cart {
+    color: #000000;
+    font-size: x-large;
+    -webkit-text-stroke: 1px rgb(250, 250, 250);
+    margin: 5px;
+}
+
 #botonIndex {
     text-align: center;
     align-items: center;
