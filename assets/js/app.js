@@ -25,3 +25,11 @@ var productos = {
 function mostrarProductos() {
     console.log(productos[2].precio.precioNormal);
 }
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "350px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

@@ -12,6 +12,13 @@
 
 <body onload="mostrarProductos()">
 
+
+
+
+
+
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
             <img src="../assets/img/meatmarket_logo.png" width="150" height="35" alt="">
@@ -24,40 +31,55 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a id="linkMenu" class="nav-link" href="index.html">Principal</a>
+                    <a id="linkMenuP" class="nav-link" href="index.html">Principal</a>
                 </li>
                 <li class="nav-item">
-                    <a id="linkMenu" class="nav-link" href="#SobreNosotros">Nosotros</a>
+                    <a id="linkMenuP" class="nav-link" href="#SobreNosotros">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a id="linkMenu" class="nav-link" href="productos.html">Productos</a>
+                    <a id="linkMenuP" class="nav-link" href="productos.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a id="linkMenu" class="nav-link" href="#">Ubicacion</a>
+                    <a id="linkMenuP" class="nav-link" href="#">Ubicacion</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a id="linkMenu" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a id="linkMenuP" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Contacto
               </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a id="linkMenu" class="dropdown-item" href="#">Telefono</a>
-                        <a id="linkMenu" class="dropdown-item" href="#">Facebook</a>
-                        <a id="linkMenu" class="dropdown-item" href="#">Whatsapp</a>
+                        <a id="linkMenuP" class="dropdown-item" href="#">Telefono</a>
+                        <a id="linkMenuP" class="dropdown-item" href="#">Facebook</a>
+                        <a id="linkMenuP" class="dropdown-item" href="#">Whatsapp</a>
                         <div class="dropdown-divider"></div>
-                        <a id="linkMenu" class="dropdown-item" href="#">Envios a Domicilio</a>
+                        <a id="linkMenuP" class="dropdown-item" href="#">Envios a Domicilio</a>
                     </div>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i id="cart" class="fas fa-shopping-cart"></i></button>
-            </form>
+
+
+
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <h5 id="carritoTitulo">Productos Agregados</h5>
+                <a href="#">Carne #1</a>
+
+                <div id="pagar">
+                    <button id="pagarBoton" type="button" class="btn btn-danger">Pagar</button>
+
+                </div>
+            </div>
+            <button onclick="openNav()" id="cartBoton" class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i id="cart" class="fas fa-shopping-cart"></i></button>
+
+
+
         </div>
     </nav>
 
 
     <section id="banner2">
         <h1 id="carne">
-            Carne roja
+            Carne Roja
         </h1>
 
     </section>
@@ -74,7 +96,7 @@
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="card-footer">
-                    <small id="precio" class="text-muted">$400.00</small>
+                    <small id="precio" class="text-muted">$ 400.00</small>
                     <button id="botonCarrito" type="button" class="btn btn-dark">Agregar a Carrito</button>
                 </div>
             </div>
@@ -86,7 +108,7 @@
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
                 <div class="card-footer">
-                    <small id="precio" class="text-muted">$300.00</small>
+                    <small id="precio" class="text-muted">$ 300.00</small>
                     <button id="botonCarrito" type="button" class="btn btn-dark">Agregar a Carrito</button>
                 </div>
             </div>
@@ -98,7 +120,7 @@
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
                 <div class="card-footer">
-                    <small id="precio" class="text-muted">$100.00</small>
+                    <small id="precio" class="text-muted">$ 100.00</small>
                     <button id="botonCarrito" type="button" class="btn btn-dark">Agregar a Carrito</button>
                 </div>
             </div>
