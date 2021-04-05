@@ -62,14 +62,26 @@
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <h5 id="carritoTitulo">Productos Agregados</h5>
-                <a href="#">Carne #1</a>
+
+                <select id="mySelect" size="8">
+                   
+                    </select>
+
+
+                <hr id="lineaCarrito">
+                <h4 id="total">Total:</h4>
+                <h4 id="totalNum"></h4>
 
                 <div id="pagar">
                     <button id="pagarBoton" type="button" class="btn btn-danger">Pagar</button>
 
+                    <button id="vaciarBoton" onclick="vaciar()" type="button" class="btn btn-dark">Vaciar</button>
+
                 </div>
             </div>
-            <button onclick="openNav()" id="cartBoton" class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i id="cart" class="fas fa-shopping-cart"></i></button>
+            <button onclick="openNav()" id="cartBoton" class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i id="cart" class="fas fa-shopping-cart"></i><a id="clicks">0</a></button>
+
+
 
 
 
@@ -97,7 +109,7 @@
                 </div>
                 <div class="card-footer">
                     <small id="precio" class="text-muted">$ 400.00</small>
-                    <button id="botonCarrito" type="button" class="btn btn-dark">Agregar a Carrito</button>
+                    <button id="botonCarrito" onclick="meatUno()" type="button" class="btn btn-dark">Agregar a Carrito</button>
                 </div>
             </div>
             <div class="card">
@@ -109,7 +121,7 @@
                 </div>
                 <div class="card-footer">
                     <small id="precio" class="text-muted">$ 300.00</small>
-                    <button id="botonCarrito" type="button" class="btn btn-dark">Agregar a Carrito</button>
+                    <button id="botonCarrito" onclick="meatDos()" type="button" class="btn btn-dark">Agregar a Carrito</button>
                 </div>
             </div>
             <div class="card">
@@ -121,12 +133,15 @@
                 </div>
                 <div class="card-footer">
                     <small id="precio" class="text-muted">$ 100.00</small>
-                    <button id="botonCarrito" type="button" class="btn btn-dark">Agregar a Carrito</button>
+                    <button id="botonCarrito" onclick="meatTres()" type="button" class="btn btn-dark">Agregar a Carrito</button>
                 </div>
             </div>
 
         </div>
     </section>
+
+
+
     <footer>
         <div class="text-right p-3" style=" color: white; background-color: rgba(0, 0, 0, 0.863);">
             © 2021 Kevin Cortes Muñoz

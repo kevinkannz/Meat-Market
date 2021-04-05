@@ -153,12 +153,13 @@ hr {
 }
 
 #cartBoton {
-    border: 5px solid #000000;
+    border: 3px solid #000000;
     background-color: #ffffff;
+    margin-right: 15px;
 }
 
 #cartBoton:hover {
-    background-color: #ff0000a9;
+    background-color: #ff0000da;
 }
 
 #botonIndex {
@@ -215,6 +216,19 @@ h4 {
     margin-bottom: 20px;
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
+}
+
+#total {
+    color: white;
+    text-align: start;
+    margin-left: 36px;
+}
+
+#totalNum {
+    color: white;
+    text-align: start;
+    margin-left: 130px;
+    margin-top: -48px;
 }
 
 #textReseña {
@@ -291,6 +305,13 @@ footer {
 }
 
 #pagarBoton {
+    margin-top: 5px;
+    padding: 10px;
+    width: 80%;
+}
+
+#vaciarBoton {
+    margin-top: 5px;
     padding: 10px;
     width: 80%;
 }
@@ -314,4 +335,28 @@ footer {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+#lineaCarrito {
+    width: 275px;
+    border: 2px solid white;
+}
+
+#mySelect {
+    background: none;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    font-family: 'Alfa Slab One', cursive;
+    width: 275px;
+    text-align: start;
+    margin-left: 36px;
+    font-size: 29px;
+}
+
+#clicks {
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(2, 2, 2);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-size: larger;
 }
